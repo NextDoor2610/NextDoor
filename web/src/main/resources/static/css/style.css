@@ -10,7 +10,7 @@ body {
 *,
 *:before,
 *:after {
-    border-box;
+
     box-sizing: border-box;
 }
 h1{
@@ -131,7 +131,7 @@ h1{
     height: 100vh;
     left: 0;
     right: 0;
-    background: url(fon1.jpg)   ;
+
     text-align: center;
     color: white;
     font-size: 30px;
