@@ -12,5 +12,9 @@ public class MainController {
         model.addAttribute("title", "Главная страница");
         return "home";
     }
-
+    @GetMapping("/Gamer1")
+    public String Page1( Model model) {
+        model.addAttribute("title", "Игрок 1");
+        return "Page1";
+    }
 }
