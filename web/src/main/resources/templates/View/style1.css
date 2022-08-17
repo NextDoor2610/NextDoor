@@ -1,9 +1,7 @@
 
-#header{
-    background-color: black;
-    top: 100%;
-}
-#footer {
-    background-color: black;
-    bottom: 100%;
+
+.footer {
+    height: 100px;
+    background-color: #38536d;
+    display: flex;
 }

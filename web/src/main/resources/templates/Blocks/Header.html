@@ -1,12 +1,14 @@
 <div th:fragment="header">
-    <div>
-        <ul>
-            <li><a href="#">Морской бой</a></li>
-        </ul>
-
-        <div class="text-end">
-            <button type="button" class="btn btn-outline-light me-2">Login</button>
-            <button type="button" class="btn btn-warning">Sign-up</button>
+    <div class="container">
+        <div class="shapka-vne">
+            <a class="logo" href="/home">Морской бой</a>
+            <nav>
+                {% if name == false %}
+                <a class="nav_link" href="/123">Вход и регистрация</a>
+                {% elseif name == true %}
+                <a class="nav_link" href="#">Личный кабинет ({{name}})</a>
+                {% endif %}
+            </nav>
         </div>
     </div>
 </div>
